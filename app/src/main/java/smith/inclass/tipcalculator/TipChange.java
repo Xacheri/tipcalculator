@@ -18,6 +18,4 @@ public class TipChange extends AppCompatActivity {
 
     }
 
-    protected
-
 }
