@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TipCalculator</string>
+    <string name="Title">Tip Calculator</string>
+    <string name="subtotal_prompt">Enter subtotal here</string>
+    <string name="subtotal_label">SubTotal:</string>
+    <string name="calc_button_text">Calculate Tip</string>
+    <string name="tip_change_button_text">Change Tip Percentage</string>
+    <string name="total_label_text">Total:</string>
+    <string name="total_placeholder_text">Total...</string>
+    <string name="low_tip_number">10%</string>
+    <string name="low_tip_value">10%</string>
+    <string name="med_tip_value">15%</string>
+    <string name="big_tip_value">20%</string>
+    <string name="generous_tip_value">25%</string>
+    <string name="change_tip_percent_text">Change Tip Percent</string>
+</resources>
