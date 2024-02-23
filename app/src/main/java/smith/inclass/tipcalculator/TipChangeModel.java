@@ -4,9 +4,9 @@ import java.util.regex.Pattern;
 public class TipChangeModel {
     double tipPercent;
 
-    public TipChangeModel(double defaultTip)
+    public TipChangeModel()
     {
-        tipPercent = defaultTip;
+        tipPercent = Defaults.DEFAULT_TIP_PERCENT;
     }
 
     public void setTipPercent(double tipPercent) {

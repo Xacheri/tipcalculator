@@ -7,10 +7,11 @@
     <string name="tip_change_button_text">Change Tip Percentage</string>
     <string name="total_label_text">Total:</string>
     <string name="total_placeholder_text">Total...</string>
-    <string name="low_tip_number">10%</string>
     <string name="low_tip_value">10%</string>
     <string name="med_tip_value">15%</string>
     <string name="big_tip_value">20%</string>
     <string name="generous_tip_value">25%</string>
     <string name="change_tip_percent_text">Change Tip Percent</string>
+    <string name="tip_label_text">Tip:</string>
+    <string name="tip_placeholder_text">Tip...</string>
 </resources>

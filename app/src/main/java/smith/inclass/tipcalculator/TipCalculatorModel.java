@@ -4,11 +4,10 @@ public class TipCalculatorModel {
     double subtotal;
     double total;
     double tipPercent;
-
     public TipCalculatorModel(){
         subtotal = 0;
         total = 0;
-        tipPercent = 0;
+        setTipPercent(Defaults.DEFAULT_TIP_PERCENT);
     }
 
     public void setSubtotal(double st)
@@ -24,5 +23,9 @@ public class TipCalculatorModel {
     public double getTotal()
     {
         return subtotal + (subtotal * tipPercent);
+    }
+
+    public double getTip() {
+        return subtotal * tipPercent;
     }
 }
